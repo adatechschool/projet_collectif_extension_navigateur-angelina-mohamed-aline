@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+  "name": "Extension Aline",
+  "description": "Une description",
+  "version": "1.0.1",
+  "browser_action": {
+    "default_icon": {                
+      "16": "images/icon16.png",     
+      "24": "images/icon24.png",    
+      "32": "images/icon32.png"     
+    },
+}
