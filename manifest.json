@@ -1,7 +1,6 @@
 {
-    "manifest_version": 3,
-  "name": "Extension Aline",
-  "description": "Une description",
+  "manifest_version":3,
+  "name": " POP UP FOOD ",
   "version": "1.0.1",
   "browser_action": {
     "default_icon": {                
@@ -11,4 +10,3 @@
     }
 }
 }
-
