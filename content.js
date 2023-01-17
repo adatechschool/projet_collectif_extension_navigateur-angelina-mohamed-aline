@@ -8,7 +8,7 @@
     
 
      if (notificationTime < now){
-         notificationTime.setdate(notificationTime.getDate() +1);
+        // notificationTime.setdate(notificationTime.getDate() +1);
       }
      let delay = notificationTime - now;
      if (Notification.permission !=="granted") {
@@ -23,4 +23,4 @@
 
 }
  
-AfficheNotification(10,15);
+AfficheNotification(12,15);
