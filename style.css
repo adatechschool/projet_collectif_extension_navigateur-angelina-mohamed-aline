@@ -1,9 +1,11 @@
-*{ background-color: bisque;
-
- }
-  
+  body {
+    color:black;
+    background-color:white;
+    background-image:url(image-back.jpeg);
+    background-repeat:no-repeat;
+    }
 button{
-  font-size: 2.2rem;
+  font-size: 1.2rem;
   color: #fff;
   background: #ff4754;
   padding: 1.2rem 2.4rem;
