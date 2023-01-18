@@ -33,11 +33,11 @@ section.top-page {
 }
 
 .big-title {
-    color: black;
+    color: #FFF;
     font-size: 80px;
-    margin: 25%;
-    margin-top: 10%;
-    margin-left: 2%;
+    /*margin: 25%;*/
+    margin-top: 23%;
+    margin-left: 57%;
 }
 
 /* menu de navigation */
