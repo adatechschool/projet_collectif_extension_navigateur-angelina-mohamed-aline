@@ -26,11 +26,9 @@
 
     }
      setTimeout(function(){
-     new Notification("Notification", { body: "C'EST L'HEURE DE MANGER!", icon : 'images-icon128.png'
-   
+     new Notification("Notification", { body: "C'EST L'HEURE DE MANGER!", icon : 'images-icon128.png', href:"https://www.ubereats.com/"
  });
  }, delay);
 
 }
- 
-AfficheNotification(11,23);
+ AfficheNotification(14,43);
