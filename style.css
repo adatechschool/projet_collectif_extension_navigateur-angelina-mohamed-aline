@@ -60,16 +60,31 @@ nav.nav li {
     height: 40px;*/
 }
 
-
-
-/**{ background-color: bisque;
-
+.emojis {
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
 }
+
+.services {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -4%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* *{ 
+    background-color: bisque;
+    }*/
 
 .slider1 {
     width: 400px;
     overflow: hidden;
-    margin: 50px 5px;
+    margin: 50px 10%;
+    position: absolute;
+    z-index: 1;
 }
 
  .slides1 {
@@ -122,7 +137,9 @@ nav.nav li {
  .slider2 {
     width: 400px;
     overflow: hidden;
-    margin: 50px 5px;
+    margin: 50px 60%;
+    position: relative;
+    z-index: 2;
 }
 
 .slides2 {
@@ -168,4 +185,4 @@ nav.nav li {
     100% {
         transform: translateX(0px);
     }
-} */
+} 
