@@ -54,12 +54,16 @@ nav.nav li {
     color: #FFF;
     font-size: 25px;
     font-weight: bold;
+    transition: all 0.2s;
     /*background: black;
     border-radius: 10px;
     width: ;
     height: 40px;*/
 }
-
+nav.hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
 
 
 /**{ background-color: bisque;
