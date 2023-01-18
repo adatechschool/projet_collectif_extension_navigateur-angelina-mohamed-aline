@@ -1,4 +1,14 @@
 
+// const button = document.querySelector('button');
+// const toast = document.querySelector('#notification');
+// button.addEventListener("click", () => {
+//   toast.classList.add("show");
+//   setTimeout(() => {
+//     toast.classList.remove("show");
+//   }, 2000);
+// });
+
+
  function AfficheNotification (hour, minute) {
     let now = new Date();
     let notificationTime = new Date();
@@ -23,4 +33,4 @@
 
 }
  
-AfficheNotification(12,15);
+AfficheNotification(11,23);

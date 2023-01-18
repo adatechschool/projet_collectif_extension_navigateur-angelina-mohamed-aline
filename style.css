@@ -71,12 +71,13 @@ nav.nav li {
     overflow: hidden;
     margin: 50px 5px;
 }
- 
-.slides1 {
+
+ .slides1 {
      width: calc(400px * 10);
      animation: glisse 15s infinite;
 }
- 
+  
+
 .slide {
     float: left;
 }
