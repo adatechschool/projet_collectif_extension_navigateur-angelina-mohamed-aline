@@ -1,10 +1,15 @@
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
 * {
     font-family: 'Courier New', Courier, monospace;
 }
 
 body {
     margin: 0 auto;
+    
 }
 
 header.header {
@@ -22,7 +27,7 @@ header.header {
 section.top-page {
     background: url(/pics/wp1.jpeg);
     background-size: cover;
-    height: 90vh;
+    height: 100vh;
     /*padding: 5px;*/
 }
 
@@ -51,22 +56,33 @@ nav.nav {
 }
 
 nav.nav li {
-    color: #FFF;
+    color: rgb(246, 250, 247);
     font-size: 25px;
     font-weight: bold;
     transition: all 0.2s;
-    /*background: black;
-    border-radius: 10px;
-    width: ;
-    height: 40px;*/
 }
 
 .emojis {
-    font-size: 40px;
+    font-size: 25px;
     display: flex;
     justify-content: space-around;
+    
+    
 }
-
+button{
+    font-size: 25px;
+    color: black;
+    background: white;
+    padding: 0.1rem 0.4rem;
+    border-radius: 0.1rem;
+    transition: all 0.2s;
+  }
+  
+ button:hover {
+    background-color: rgb(228, 228, 211);
+    column-rule-color: brown;
+    opacity: 0,8;
+  }
 .services {
     font-size: 20px;
     font-weight: bold;
@@ -75,10 +91,6 @@ nav.nav li {
     justify-content: space-around;
 }
 
-
-/* *{ 
-    background-color: bisque;
-    }*/
 
 .slider1 {
     width: 400px;
@@ -90,7 +102,7 @@ nav.nav li {
 
  .slides1 {
      width: calc(400px * 10);
-     animation: glisse 15s infinite;
+     animation: glisse 25s infinite;
 }
   
 
@@ -145,7 +157,7 @@ nav.nav li {
 
 .slides2 {
     width: calc(400px * 10);
-    animation: glisse 15s infinite;
+    animation: glisse 25s infinite;
 }
 
 .slide {
@@ -186,4 +198,31 @@ nav.nav li {
     100% {
         transform: translateX(0px);
     }
-} 
+}
+  
+  .wrapper {
+    width: 28%,;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: rgba(100, 100, 100, 0.2) 0px 7px 29px 0px;
+    padding: 1px;
+    
+  }
+  
+  img {
+    width: 50%, 50%;
+    align-content: center;
+    border-radius: 50%;
+    transform: rotate(360deg);
+
+  }
+  
+  .details-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+   }
